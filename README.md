@@ -1,5 +1,5 @@
 # CURATE: Scaling-up Differentially Private Causal Graph Discovery
-This repository contains the implementation code of adaptive privacy budgeting causal graph discovery algorithm CURATE along with the supplementary document that provides the proof of the paper.
+This repository contains the code for adaptive differentially private causal graph discovery algorithm CURATE along with the datasets used for the experiments presented in the main paper. 
 ## Overview
 CURATE enables adaptive privacy budget allocation in the setting of differentially private causal graph discovery. 
 
@@ -11,6 +11,10 @@ Python 3.6.10
 numpy
 pandas
 scipy
+python-igraph
+
+## Usage
+For the implementation of constraint-based CURATE, CURATE_cb.py needs to be run. For score-based CURATE algorithm the usage command is: python -m notears.bnlearn
 ## References:
 The codes for non-private PC and Priv-PC, SVT-PC, EM-PC, and NOLEAKS are borrowed from the following repositories:
 [PC Algorithm](https://github.com/keiichishima/pcalg) 
